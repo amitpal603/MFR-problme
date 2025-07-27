@@ -1,0 +1,26 @@
+//  Q1 sun all the number of input [1,2,3] 6
+const num = [1,2,3].reduce((acuu,curr) => acuu + curr ,0)
+// console.log(num);
+
+// Q2 multiple all number 
+const multi = [2,3,4].reduce((acc,curr) => acc * curr )
+// console.log(multi);
+
+// Q3  find th e max value
+const maxValue = [3,7,1].reduce((acc,curr) => acc > curr ? acc : curr)
+// console.log(maxValue);
+
+// Q4 
+const str = ['a','b','c'].reduce((acc,curr)  => acc + curr ,'')
+// console.log(str);
+
+// Q5 count many time true
+const t = [true,false,true].reduce((ac,curr) => {
+   return ac + (curr === true ? 1 : 0)
+},0)
+// console.log(t);
+
+
+
+
+
